@@ -1,0 +1,50 @@
+* {
+  font-family: "Poppins", sans-serif;
+  transition: all 0.5s !important;
+}
+
+span {
+  font-family: "Poppins", sans-serif !important;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+  font-family: system-ui;
+}
+
+h1 {
+  background: white;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+span {
+  display: block;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: monospace;
+}
+
+.box {
+  background-color: white;
+  border-radius: 4px;
+  min-height: 300px;
+  max-width: 500px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.fa-clipboard:before {
+  color: #fff;
+}
+
+#text {
+  gap: 5px;
+}/*# sourceMappingURL=index.css.map */
